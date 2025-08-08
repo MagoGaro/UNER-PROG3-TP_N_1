@@ -4,7 +4,7 @@
 
 ## Grupo:
 
-# I
+<span style="font-size: 32px;">I</span>
 
 ## Integrantes:
 - Rubén Daniel Almiron de Greef
