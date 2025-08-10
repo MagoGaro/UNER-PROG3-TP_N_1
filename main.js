@@ -34,3 +34,20 @@ productos.forEach(producto => {
 });
 
 //Manipulación de Arrays
+// 1. Agregar dos elementos al final del array productos utilizando push().
+productos.push(
+  {id: 6, nombre: "Chaleco Beige", precio: 45000, stock: 12},
+  {id: 7, nombre: "Montgomery", precio: 135000, stock: 8});
+        
+console.log(productos);
+
+// Eliminar el último elemento del array productos utilizando pop(). 
+productos.pop();
+console.log(productos);
+// Agregar un nuevo elemento al inicio del array productos utilizando unshift().
+productos.unshift(
+  {id:0, nombre: "Campera Cuero",precio:95000, stock:4});
+console.log(productos);
+// Elimina el primer elemento del array productos utilizando shift().
+productos.shift();
+console.log(productos);
