@@ -16,7 +16,7 @@ console.log(`La longitud total del array productos es: ${productos.length} \n`);
 //Acceder e imprimir por consola el nombre del segundo y cuarto elemento del array utilizando su índice.
 
 console.log(`El nombre del segundo elemento del array es: ${productos[1].nombre}`);
-console.log(`El nombre del tercer elemento del array es: ${productos[3].nombre} \n`);
+console.log(`El nombre del cuarto elemento del array es: ${productos[3].nombre} \n`);
 
 //Recorrido del Array
 
