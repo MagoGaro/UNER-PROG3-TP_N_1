@@ -51,3 +51,12 @@ console.log(productos);
 // Elimina el primer elemento del array productos utilizando shift().
 productos.shift();
 console.log(productos);
+// Crear un nuevo array llamado productosConStock que contenga solo los elementos del array productos donde el stock sea mayor que 0 utilizando filter().
+const productosConStock = productos.filter(producto => producto.stock > 0);
+console.log("\nProductos con stock disponible:");
+console.log(productosConStock);
+
+// Crear un nuevo array llamado nombresProductos que contenga solo los nombres de todos los productos en el inventario utilizando map().
+const nombresProductos = productos.map(producto => producto.nombre);
+console.log("\nNombres de todos los productos:");
+console.log(nombresProductos);
