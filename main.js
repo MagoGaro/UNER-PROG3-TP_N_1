@@ -60,3 +60,21 @@ console.log(productosConStock);
 const nombresProductos = productos.map(producto => producto.nombre);
 console.log("\nNombres de todos los productos:");
 console.log(nombresProductos);
+
+//Encontrar y guardar en una variable el primer producto en productos que tenga un id específico (ej. id:3) utilizando find(). Si no lo encuentra, indicar que no existe. 
+const productoId = 3;
+
+const productoEncontrado = productos.find(p => p.id === productoId);
+
+if (productoEncontrado) {
+  console.log("Producto encontrado:", productoEncontrado);
+} else {
+  console.log(`El producto con id ${productoId} no existe`);
+}
+
+//Crear un nuevo array llamado productosOrdenados que contenga los productos ordenados por precio en orden decreciente. (investigar método sort()).
+
+let productosOrdenados = productos.sort((a,b) => b.precio - a.precio);
+
+console.log("Nuevo array de productos ordeneados por precio en orden decresciente:");
+console.log(productosOrdenados);
